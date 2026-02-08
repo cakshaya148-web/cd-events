@@ -1,0 +1,46 @@
+.events-page {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+/* THE YELLOW BOX FROM THE VIDEO */
+.events-header-banner {
+  background-color: #ffcc00;
+  padding: 80px 20px;
+  text-align: center;
+  color: #000;
+  border-bottom: 8px solid #000; /* THE LINE BELOW */
+  margin-bottom: 60px;
+}
+
+.events-header-banner h1 {
+  font-size: 4.5rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+.events-header-banner p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  color: #ffcc00;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
